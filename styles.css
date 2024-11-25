@@ -1,0 +1,26 @@
+body {
+    background-color: #6C8673;
+}
+
+#topdiv {
+    height: 100px;
+}
+
+#mainheaderdiv {
+    background-color: #BABABA;
+    height: 400px;
+}
+
+#scrollingdiv {
+    background-color: #D9D9D9;
+    height: 350px;
+}
+
+#morenewsdiv {
+    height: 550px;
+}
+
+#botdiv {
+    background-color: #D9D9D9;
+    height: 350px;
+}
