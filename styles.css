@@ -12,13 +12,16 @@ body {
 
 #newslogodiv {
     display: flex;
+    flex-grow: 1;
 }
 #navigationdiv {
     display: flex;
+    flex-grow: 1;
 }
 
 #signregdiv {
     display: flex;
+    flex-grow: 1;
 }
 
 #mainheaderdiv {
