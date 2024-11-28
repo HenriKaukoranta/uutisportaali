@@ -1,14 +1,35 @@
 body {
     background-color: #6C8673;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #topdiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     height: 100px;
+}
+
+#newslogodiv {
+    display: flex;
+}
+#navigationdiv {
+    display: flex;
+}
+
+#signregdiv {
+    display: flex;
 }
 
 #mainheaderdiv {
     background-color: #BABABA;
     height: 400px;
+}
+
+#newsheader {
+    padding: 150px 0;
+    font-size: 75px;
+    text-align: center;
 }
 
 #scrollingdiv {
@@ -17,7 +38,31 @@ body {
 }
 
 #morenewsdiv {
+    display: flex;
+    flex-direction: column;
     height: 550px;
+}
+
+#latestnewsdiv {
+    display: flex;
+    flex-grow: 1;
+}
+
+#hottestnewsdiv {
+    display: flex;
+    flex-grow: 1;
+}
+
+#smallnewsdiv {
+    background-color: #D9D9D9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#headers {
+    font-size: 45px;
 }
 
 #botdiv {
