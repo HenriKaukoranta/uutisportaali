@@ -1,3 +1,7 @@
-#categoriesdiv {
+#maincategoriesdiv {
     height: 800px;
+}
+
+#categoriesdiv {
+    background-color: #D9D9D9;
 }

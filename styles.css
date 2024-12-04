@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-grow: 1;
 }
-#navigationdiv {
+#navigation {
     display: flex;
     flex-grow: 1;
 }
@@ -56,7 +56,7 @@ body {
     flex-grow: 1;
 }
 
-#smallnewsdiv {
+#smallnewsarticle {
     background-color: #D9D9D9;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -68,7 +68,7 @@ body {
     font-size: 45px;
 }
 
-#botdiv {
+#footer1 {
     background-color: #D9D9D9;
     height: 350px;
 }
