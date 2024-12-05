@@ -1,5 +1,10 @@
-#aboutusdiv {
+#aboutusdivarea {
     height: 750px;
+}
+
+#aboutustextdiv {
+    background-color: #D9D9D9;
+    height: 500px;
 }
 
 #contactdiv {

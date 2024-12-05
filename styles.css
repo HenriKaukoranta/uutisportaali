@@ -1,6 +1,8 @@
 body {
     background-color: #6C8673;
     font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px
 }
 
 #topdiv {
@@ -27,12 +29,13 @@ body {
 #mainheaderdiv {
     background-color: #BABABA;
     height: 400px;
+    font-size: 0;
 }
 
 #newsheader {
-    padding: 150px 0;
     font-size: 75px;
     text-align: center;
+    margin: 0;
 }
 
 #scrollingdiv {
@@ -40,20 +43,31 @@ body {
     height: 350px;
 }
 
+#scroll {
+    margin: 0;
+}
+
 #morenewsdiv {
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 500px;
+}
+
+#divforflex {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
 }
 
 #latestnewsdiv {
-    display: flex;
     flex-grow: 1;
+    width: 50%;
+    margin-right: 25px;
 }
 
 #hottestnewsdiv {
-    display: flex;
     flex-grow: 1;
+    width: 50%;
 }
 
 #smallnewsarticle {
