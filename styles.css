@@ -12,18 +12,27 @@ body {
     height: 100px;
 }
 
+#topdivflex {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
 #newslogodiv {
     display: flex;
     flex-grow: 1;
+    width: 25%;
 }
 #navigation {
     display: flex;
     flex-grow: 1;
+    width: 50%;
 }
 
 #signregdiv {
     display: flex;
     flex-grow: 1;
+    width: 25%;
 }
 
 #mainheaderdiv {
@@ -59,13 +68,13 @@ body {
     flex-grow: 1;
 }
 
-#latestnewsdiv {
+#latestnews {
     flex-grow: 1;
     width: 50%;
     margin-right: 25px;
 }
 
-#hottestnewsdiv {
+#hottestnews {
     flex-grow: 1;
     width: 50%;
 }
