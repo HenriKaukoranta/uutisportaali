@@ -22,17 +22,23 @@ body {
     display: flex;
     flex-grow: 1;
     width: 25%;
+    margin: auto;
+    margin-left: 230px;
 }
 #navigation {
     display: flex;
     flex-grow: 1;
     width: 50%;
+    align-items: center;
+    margin-left: 275px;
 }
 
 #signregdiv {
     display: flex;
     flex-grow: 1;
     width: 25%;
+    margin: auto;
+    margin-left: 230px;
 }
 
 #mainheaderdiv {
@@ -45,6 +51,7 @@ body {
     font-size: 75px;
     text-align: center;
     margin: 0;
+    padding: 160px 0px;
 }
 
 #scrollingdiv {
@@ -54,7 +61,23 @@ body {
 
 #scroll {
     margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 100px;
+    padding-left: 100%;
+    display: inline-block;
+    animation: scroll 5s linear infinite;
 }
+
+@keyframes scroll {
+    0% {
+        transfrom: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
 
 #morenewsdiv {
     display: flex;
@@ -81,6 +104,7 @@ body {
 
 #smallnewsarticle {
     background-color: #D9D9D9;
+    height: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
